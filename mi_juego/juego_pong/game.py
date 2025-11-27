@@ -88,7 +88,7 @@ class PelotaPong:
     # Revisa rebotes y puntos
     def rebotar(self):
 
-        # ⚠ CORREGIDO: ahora cuenta bien los puntos
+
         # Si sale por la izquierda → punto para IA
         if self.x <= 0:
             self.reiniciar()
@@ -443,3 +443,4 @@ def game_loop(dificultad):
 
 def jugar(dificultad):
     game_loop(dificultad)
+
